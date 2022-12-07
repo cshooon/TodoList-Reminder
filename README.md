@@ -1,2 +1,2 @@
 # TodoList-Reminder
-eclass TodoList 알림 보내주기
+eclass TodoList를 discord로 알림 보내주기
