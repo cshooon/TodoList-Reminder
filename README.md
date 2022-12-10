@@ -34,11 +34,13 @@ remindbot.start(TodoLists, nums, days, minutes)
 2. /재설정<br/>
 101은 추가 102는 삭제 103는 변경입니다. todolist class를 객체로 구성된 list를 기반으로 항목 번호(nums), 몇 일 전으로 설정할지(days), 몇 분마다 알림을 보내줄지(minutes)도 마찬가지로 list로 저장하여 추가, 삭제, 변경이 가능하도록 만들었습니다.
 ## Example
-Eclass Todolist를 그대로 crawling한 결과입니다.<br/>
-<img src="./images/Todolist.png" width="300" height="450">  <img src="./images/dTodolist.png" width="600" height="450">
-설정해준대로 각각 1분, 5분마다 채팅으로 알림이 갑니다.
-<img src="./"> <img src="./">
-추가, 삭제 변경을 할 수 있습니다.
+Eclass Todolist를 그대로 crawling한 결과입니다.<br/><br/>
+<img src="./images/Todolist.png" width="300" height="450">  <img src="./images/dTodolist.png" width="600" height="450"><br/><br/><br/>
+설정해준대로 각각 1분, 2분마다 채팅으로 알림이 갑니다.<br/><br/>
+<img src="./images/time.png" width="300" height="300"> <img src="./images/time1.png" width="300" height="300"> <img src="./images/time2.png" width="300" height="300">
+<br/><br/><br/>
+추가, 삭제, 변경을 할 수 있습니다.<br/><br/>
+
 ## Conclusion
 
 ### 결론 및 보완점
