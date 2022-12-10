@@ -57,5 +57,8 @@ async def remindbot(todolists, numbers, starts, cycles):
         cycle = timedelta(hours=cycle)
 ```
 위 두 가지를 바꿔서 사용자가 원하는 대로 설정할 수 있습니다.
+<img src="./images/error1.png" width="1000" height="40"><br/> 
+<img src="./images/error2.png" width="1000" height="40"><br/>
+
 
 ### 제언
