@@ -19,12 +19,15 @@ class TodoList:
   SchoolID = os.environ.get('School_ID')  # SchoolID = '' put your eclass id
   SchoolPW = os.environ.get('School_PW')  # SchoolPW = '' put your eclass pw
 ```
-1. token = ''를 넣어줍니다.
-1. 파이썬 파일(reminder_bot.py)을 실행합니다.
-1. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
+4. token = ''를 넣어줍니다.
+5. 파이썬 파일(reminder_bot.py)을 실행합니다.
+6. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
 ### 프로그램 기능
 1. /활성화
 discord 채팅에 /활성화를 채팅으로 보내면 자동으로 eclass todolist를 crawling해 줍니다. crawling한 항목을 todolist class 객체에 저장합니다. 항목 번호, 몇 일 전부터 알림을 보내 줄 것인지, 몇 분마다 알림을 보내 줄 것인지 사용자에게 입력 받아 remindbot()을 실행합니다. remindbot()은 시간마다 알림을 보내줍니다.
+```python
+remindbot.start(TodoLists, nums, days, minutes)
+```
 2. /재설정
 101은 추가 102는 삭제 103는 변경입니다. todolist class를 객체로 구성된 list를 기반으로 항목 번호(nums), 몇 일 전으로 설정할지(days), 몇 분마다 알림을 보내줄지(minutes)도 마찬가지로 list로 저장하여 추가, 삭제, 변경이 가능하도록 만들었습니다.
 ## Example
