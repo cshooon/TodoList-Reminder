@@ -20,6 +20,9 @@ class TodoList:
   SchoolPW = os.environ.get('School_PW')  # SchoolPW = '' put your eclass pw
 ```
 4. token = ''를 넣어줍니다.
+```python
+token = 'given token'
+```
 5. 파이썬 파일(reminder_bot.py)을 실행합니다.
 6. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
 ### 프로그램 기능
