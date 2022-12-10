@@ -208,7 +208,7 @@ async def _activate(ctx):
 
         await channel.send('항목을 골라주세요. 101 추가 102 삭제 103 변경(위 todolist 참고)')
 
-        # 기존에 설정되있는 값 출력
+        # 기존에 설정되어 있는 값 출력
         for y, (nu, da, min) in enumerate(zip(nums, days, minutes)):
             todo = TodoLists[nu - 1]
             await channel.send(f'{y + 1}번: {todo.subject} {todo.title}이(가) {da}일 전부터 {min}분마다 알림')
