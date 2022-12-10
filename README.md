@@ -37,10 +37,12 @@ remindbot.start(TodoLists, nums, days, minutes)
 Eclass Todolist를 그대로 crawling한 결과입니다.<br/><br/>
 <img src="./images/Todolist.png" width="300" height="450">  <img src="./images/dTodolist.png" width="500" height="450"><br/><br/><br/>
 설정해준대로 각각 1분, 2분마다 채팅으로 알림이 갑니다.<br/><br/>
-<img src="./images/time.png" width="250" height="300"> <img src="./images/time1.png" width="250" height="300"> <img src="./images/time2.png" width="250" height="300">
+<img src="./images/time.png" width="266" height="300"> <img src="./images/time1.png" width="266" height="300"> <img src="./images/time2.png" width="266" height="300">
 <br/><br/><br/>
 추가, 삭제, 변경을 할 수 있습니다.<br/><br/>
-
+<img src="./images/re1.png" width="300" height="250"> <img src="./images/re2.png" width="500" height="250"><br/>
+<img src="./images/re3.png" width="300" height="250"> <img src="./images/re4.png" width="500" height="250"><br/>
+<img src="./images/re5.png" width="300" height="250"> <img src="./images/re6.png" width="500" height="250">
 ## Conclusion
 
 ### 결론 및 보완점
