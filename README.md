@@ -56,9 +56,12 @@ async def remindbot(todolists, numbers, starts, cycles):
         start = timedelta(days=start)
         cycle = timedelta(hours=cycle)
 ```
-위 두 가지를 바꿔서 사용자가 원하는 대로 설정할 수 있습니다.
-<img src="./images/error1.png" width="1000" height="40"><br/> 
-<img src="./images/error2.png" width="1000" height="40"><br/>
+분 단위로 설정할지 시간 단위로 설정할지 일 단위로 설정할지 설정할 수 있습니다.
+* 사용자가 입력을 시간 내에 안 할 경우에 나는 에러입니다. 앞으로 예외처리를 할 예정입니다.
+<img src="./images/error1.png" width="1000" height="30"><br/> 
+* 메시지가 나오기 전에 입력을 할 시에 나는 에러입니다. 인터넷이 느린 경우 더 자주 발생합니다. 앞으로 예외처리를 할 예정입니다.
+<img src="./images/error2.png" width="1000" height="30"><br/>
 
 
 ### 제언
+Eclass의 todolist를 가져와 알림을 사용자가 설정한 대로 보내주는 프로그램을 만들었습니다. 시간 단위나 날짜 단위가 아니라 예를 들어 내 스케줄에 맞추어 월요일 2시 부터 알림 설정을 할 수 있는 프로그램을 만들면 좋을 것 같습니다.
