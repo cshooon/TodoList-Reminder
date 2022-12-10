@@ -14,6 +14,7 @@ eclass에 있는 TodoList을 crawling해서 원하는 항목을 설정한 시간
 1. discord 서버에 들어오셔서 reminder 채널에 접속해 주시면 됩니다.
 [초대 링크](https://discord.gg/T6SjQjQV)
 1. (코드) os.environ("") 이 부분을 string으로 eclass id와 비번을 입력해줍니다.
+1. token(코드) 'MTAyODk5ODk4MTQzMjM5Nzg2NQ.GJaPAF.TyvGYTdx_hE0d8BAIcNoQm7BdyzqN_TiDdJGhU'를 넣어줍니다.
 1. 파이썬 파일(reminder_bot.py)을 실행합니다.
 1. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
 ### 프로그램 기능
