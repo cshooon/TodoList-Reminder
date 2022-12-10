@@ -57,9 +57,9 @@ async def remindbot(todolists, numbers, starts, cycles):
         cycle = timedelta(hours=cycle)
 ```
 분 단위로 설정할지 시간 단위로 설정할지 일 단위로 설정할지 설정할 수 있습니다.
-* 사용자가 입력을 시간 내에 안 할 경우에 나는 에러입니다. 앞으로 예외처리를 할 예정입니다.
+* 사용자가 시간 내에 입력을 안 할 경우에 나는 에러입니다. 앞으로 예외처리를 할 예정입니다.
 <img src="./images/error1.png" width="1000" height="30"><br/> 
-* 메시지가 나오기 전에 입력을 할 시에 나는 에러입니다. 인터넷이 느린 경우 더 자주 발생합니다. 앞으로 예외처리를 할 예정입니다.
+* 입력 메시지가 나오기 전에 입력을 할 시에 나는 에러입니다. 인터넷이 느린 경우 더 자주 발생합니다. 앞으로 예외처리를 할 예정입니다.
 <img src="./images/error2.png" width="1000" height="30"><br/>
 
 
