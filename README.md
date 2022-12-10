@@ -10,11 +10,11 @@ Eclass **TodoList**를 discord로 **알림** 보내주기
 ## Description
 eclass에 있는 TodoList을 crawling해서 원하는 항목을 설정한 시간마다 디스코드 채널에 채팅으로 기한이 얼마나 남았는지 알림을 보내줍니다.
 ### 사용법
-1. crawling을 위해 chormedriver을 root directory에 설치해줍니다. Chrome 우상단에 ...을 클릭한 뒤 Chrome 정보에 들어가면 버전을 확인할 수 있습니다. 버전에 맞는 드라이버를 설치하시면 됩니다. 
+1. crawling을 위해 chormedriver을 root directory에 설치해줍니다. Chrome 우상단에 ...을 클릭한 뒤 Chrome 정보에 들어가면 버전을 확인할 수 있습니다. 버전에 맞는 드라이버를 설치하시면 됩니다. [설치 링크](https://chromedriver.chromium.org/downloads)
 1. discord 서버에 들어오셔서 reminder 채널에 접속해 주시면 됩니다.
 [초대 링크](https://discord.gg/T6SjQjQV)
 1. (코드) os.environ("") 이 부분을 string으로 eclass id와 비번을 입력해줍니다.
-1. token(코드) 'MTAyODk5ODk4MTQzMjM5Nzg2NQ.GJaPAF.TyvGYTdx_hE0d8BAIcNoQm7BdyzqN_TiDdJGhU'를 넣어줍니다.
+1. token = 'MTAyODk5ODk4MTQzMjM5Nzg2NQ.GFcANO.713_DRh44q_t9Jg6Z9txYCdWivh8LhaCwt5Ac4'를 넣어줍니다.
 1. 파이썬 파일(reminder_bot.py)을 실행합니다.
 1. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
 ### 프로그램 기능
