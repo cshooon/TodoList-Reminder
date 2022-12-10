@@ -19,7 +19,7 @@ class TodoList:
   SchoolID = os.environ.get('School_ID')  # SchoolID = '' put your eclass id
   SchoolPW = os.environ.get('School_PW')  # SchoolPW = '' put your eclass pw
 ```
-4. token = ''를 넣어줍니다.
+4. token = ""를 넣어줍니다.
 ```python
 token = 'given token'
 ```
