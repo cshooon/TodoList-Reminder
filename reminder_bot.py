@@ -11,7 +11,7 @@ from string import Formatter
 from datetime import timedelta
 
 # bot 사용하기 위한 token
-token = 'MTAyODk5ODk4MTQzMjM5Nzg2NQ.GJaPAF.TyvGYTdx_hE0d8BAIcNoQm7BdyzqN_TiDdJGhU'
+token = ''
 
 # discord channel id
 ID = 1029174448512843787
