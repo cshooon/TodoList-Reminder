@@ -13,7 +13,7 @@ eclass에 있는 TodoList을 crawling해서 원하는 항목을 설정한 시간
 1. crawling을 위해 chormedriver을 root directory에 설치해줍니다. Chrome 우상단에 ...을 클릭한 뒤 Chrome 정보에 들어가면 버전을 확인할 수 있습니다. 버전에 맞는 드라이버를 설치하시면 됩니다. [설치 링크](https://chromedriver.chromium.org/downloads)
 1. discord 서버에 들어오셔서 reminder 채널에 접속해 주시면 됩니다.
 [초대 링크](https://discord.gg/T6SjQjQV)
-1. class todolist에서 SchoolID = os.environ.get('School_ID'), SchoolPW = os.environ.get('School_PW') 이 부분에 eclass id와 pw을 입력해줍니다.
+1. class todolist에서 이 부분에 eclass id와 pw을 입력해줍니다.
 ```python
 class TodoList:
   SchoolID = os.environ.get('School_ID')  # SchoolID = '' put your eclass id
