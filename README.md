@@ -4,7 +4,7 @@ Eclass **TodoList**를 discord로 **알림** 보내주기
 1. [Outline](#Outline)
 2. [Description](#Description)
 3. [Example](#Example)
-4. [Conclusion](#Conclusion)
+4. [Suggestion](#Suggestion)
 ## Outline
 코로나 펜더믹 이후로 대학생들은 온라인 수업을 받게 되고 eclass가 활성화 되었습니다. 대면 수업이 활성화된 지금도 공지사항을 확인하거나 과제를 제출할 때 eclass를 활용합니다. 제출하지 않은 과제에 대한 알림이 사용자가 설정한대로 오면 유익할 것 같습니다. 
 ## Description
@@ -43,7 +43,19 @@ Eclass Todolist를 그대로 crawling한 결과입니다.<br/><br/>
 <img src="./images/re1.png" width="300" height="250"> <img src="./images/re2.png" width="500" height="250"><br/>
 <img src="./images/re3.png" width="300" height="250"> <img src="./images/re4.png" width="500" height="250"><br/>
 <img src="./images/re5.png" width="300" height="250"> <img src="./images/re6.png" width="500" height="250">
-## Conclusion
+## Suggestion
+### 보완점
+* 기존 코드의 seconds를 minutes으로 바꾸어 줍니다
+```python
+@tasks.loop(minutes=10)
+async def remindbot(todolists, numbers, starts, cycles):
+```
+* 기존 코드의 minutes를 hours로 바꾸어 줍니다.
+```python
+# 비교 위해 timedelta로 형변환
+        start = timedelta(days=start)
+        cycle = timedelta(hours=cycle)
+```
+위 두 가지를 바꿔서 사용자가 원하는 대로 설정할 수 있습니다.
 
-### 결론 및 보완점
-### 소감
+### 제언
