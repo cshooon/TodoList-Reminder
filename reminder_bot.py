@@ -240,15 +240,14 @@ async def _activate(ctx):
             await channel.send('항목 번호(변경)를 알려주세요.')
             n = await bot.wait_for("message", check=iscontent, timeout=30)
             n = int(n.content)
-            index = nums.index(n)
             await channel.send('몇 일 전부터(변경) 알림을 보내드릴까요?')
             d = await bot.wait_for("message", check=isday, timeout=30)
             d = int(d.content)
-            days[index] = d
+            days[n - 1] = d
             await channel.send('몇 분마다(변경) 알림을 보내드릴까요?')
             m = await bot.wait_for("message", check=ismin, timeout=30)
             m = int(m.content)
-            minutes[index] = m
+            minutes[n - 1] = m
         # 재시작
         remindbot.start(TodoLists, nums, days, minutes)
 bot.run(token)
