@@ -23,8 +23,9 @@ class TodoList:
 ```python
 token = 'given token'
 ```
-5. 파이썬 파일(reminder_bot.py)을 실행합니다.
-6. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
+5. python library selenium, discord, bs4를 설치해줍니다.
+6. 파이썬 파일(reminder_bot.py)을 실행합니다.
+7. discord 채널에 접속해 /활성화, /재설정 명령어를 채팅으로 입력해줍니다. 
 ### 프로그램 기능
 1. /활성화<br/>
 discord 채팅에 /활성화를 채팅으로 보내면 자동으로 eclass todolist를 crawling해 줍니다. crawling한 항목을 todolist class 객체에 저장합니다. 항목 번호, 몇 일 전부터 알림을 보내 줄 것인지, 몇 분마다 알림을 보내 줄 것인지 사용자에게 입력 받아 remindbot()을 실행합니다. remindbot()은 시간마다 알림을 보내줍니다.
